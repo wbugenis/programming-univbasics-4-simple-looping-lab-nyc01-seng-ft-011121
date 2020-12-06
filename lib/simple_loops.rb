@@ -10,3 +10,21 @@ def loop_message_n_times(msg, n)
     puts msg
   end
 end
+
+
+def output_array(array){
+  counter = 0
+  while(counter < array.length) do
+    puts array[counter]
+    counter += 1 
+  end
+end
+
+def return_string_array(array)
+  strings = []
+  counter = 0 
+  while(counter < array.length) do
+    strings[counter] = array[counter].to_s 
+    counter += 1 
+  end
+end
