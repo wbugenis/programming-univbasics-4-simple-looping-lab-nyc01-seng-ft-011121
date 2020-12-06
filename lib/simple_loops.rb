@@ -22,4 +22,3 @@ def return_string_array(array)
     strings[counter] = array[counter].to_s 
     counter += 1 
   end
-end
