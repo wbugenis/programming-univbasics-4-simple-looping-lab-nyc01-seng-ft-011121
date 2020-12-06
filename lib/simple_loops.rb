@@ -23,7 +23,7 @@ end
 def return_string_array(array)
   strings = []
   counter = 0 
-  while(counter < array.length) do
+  while counter < array.length
     strings[counter] = array[counter].to_s 
     counter += 1 
   end
